@@ -3,46 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Portfolio Ivan Bogado</title>
 </head>
 <body>
     <header>
-        <div>
-            <i><p>icono IB</p></i>
-        </div>
-        <div>
-            <a href="">Inicio</a>
-            <a href="">Sobre</a>
-            <a href="">Portfolio</a>
+            <i>icono IB</i>
+        <nav class="navegacion_header">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#portfolio">Portfolio</a>
             <a href="">Reseñas</a>
-            <a href="">Servicios</a>
-            <a href="">Contacto</a>
-        </div>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
     </header>
     <main>
-        <section>
-            <h1>Sobre Ivan Bogado </h1>
-            <h2>Diseñador Web Full Stack</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, consectetur adipisci. Perferendis suscipit illum laborum ullam recusandae vel velit tempore in praesentium optio nostrum eveniet iste nemo, sunt voluptates commodi?</p>
-            <p>contratame</p>
-            <img src="" alt="Foto ybam">
+        
+        <section class="hero" id="inicio">
+            <div class="presentacion">
+                <div class="herotext">
+                    <h1>Sobre Ivan Bogado </h1>
+                    <h1><b>Diseñador Web Full Stack</b></h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, consectetur adipisci. Perferendis suscipit illum laborum ullam recusandae vel velit tempore in praesentium optio nostrum eveniet iste nemo, sunt voluptates commodi?</p>
+                    <h3>contratame</h3>
+                </div>
+                <!-- img/ivan-s2.jpeg -->
+                <div class="hero-inferior">
+                    <h2>Contacto</h2>
+                    <a href="ashwani.keergmail.com"></a>
+                    <h2>Sigueme</h2>
+                    <a href="">Linkedin</a>
+                    <a href="">Behance</a>
+                </div>
+            </div>
+            <img src="img/ivan-hero.jpeg" alt="Foto ybam">
+            
+            
+            
         </section>
-        <section>
-            <div>
-                <h2>Contacto</h2>
-                <a href="ashwani.keergmail.com"></a>
-            </div>
-            <div>
-                <h2>Sigueme</h2>
-                <a href="">Linkedin</a>
-                <a href="">Behance</a>
-            </div>
-        </section>
-        <section>
-            <div>
-                <img src="" alt="otra imagen mia">
-            </div>
-            <div>
+
+        <section class="about" id="sobre">
+            
+                <!-- "img/ivan-hero.jpeg" --> 
+            <img src="img/ivan-s2.jpeg"alt="otra imagen mia" >
+            
+            <div class="texto-about">
                 <h1>Sobre</h1>
                 <h1>Mi</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vitae, enim, natus voluptatum itaque neque nobis eaque sequi labore eligendi minima debitis voluptatibus tenetur repudiandae sunt sit necessitatibus soluta quaerat?</p>
@@ -50,7 +57,7 @@
                 <p>ga cv</p>
             </div>
         </section>
-        <section>
+        <section id="portfolio">
             <div>
                 <h1>Mi Trabajo</h1>
                 <a href="">ver màs</a>  
@@ -62,7 +69,7 @@
                 <img src="" alt="Proyecto4">
             </div>
         </section>
-        <section>
+        <section id="servicios">
             <!-- Servicios -->
             <H1>My</H1>
             <h1>Servicios</h1>
@@ -85,7 +92,7 @@
                 <img src="" alt="Imagen2">
             </div>
         </section>
-        <section>
+        <section id="contacto">
             <sup>Preparado para cambiar tu trabajo?</sup>
             <h1>Vamos a trabajar juntos</h1>
         </section>
