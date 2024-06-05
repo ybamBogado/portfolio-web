@@ -1,0 +1,111 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Cactus+Classical+Serif&display=swap');/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* root variables */
+:root{
+    /* Hdr header*/
+    --fondoHdr:#212121;
+    /* Texto header */
+    --textoheader:#cacaca;
+    --textoheaderhover: #ffffff;
+    /* seccion hero */
+    --fondoSH:#212121;
+    --heronombretexto:#dddddd;
+    --heronombretextobold:#ffffff;
+    --psections:#d1d1d0;
+    /* seccion about */
+    --fondoabout:#252525;
+    --fuente-pagina:"Anek Devanagari", sans-serif, serif;
+
+
+}
+body{
+    font-family: var(--fuente-pagina);
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;    
+    background-color: var(--fondoHdr);
+    color: var(--textoheader);
+    padding: 10px 20px;
+}
+header a{
+    color: var(--textoheader);
+    text-decoration: none;
+    margin-right: 25px;
+}
+header a:hover{
+    color: var(--textoheaderhover);
+    text-decoration:dotted var(--textoheaderhover) underline;
+}
+/* header
+i{
+    display:flex;
+    justify-content: left;
+    justify-items: center;
+} */
+nav{
+    display:flex;
+    justify-content:end;
+    padding:10px 50px ;
+}
+
+
+.hero{
+    
+    background-color: var(--fondoSH);
+    /* para el hero 80 */
+    height: 80vh;
+    color:var(--psections);
+    display: flex;
+    /* text-align: start; */
+    padding: 10px 20px;
+    /* justify-content: space-evenly; */
+}
+.hero img{
+    margin: 50px 100px;
+}
+.presentacion{
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-content: start;
+    margin-top: 100px;
+}
+.herotext{
+    border: solid red;
+}
+.herotext h1{
+    color: var(--heronombretexto);
+
+}
+.herotext b{
+    color: var(--heronombretextobold);
+}
+
+.herotext img{
+    padding: 40px 10px;
+}
+.hero-inferior{
+    /* display: flex; */
+
+}
+.hero-inferior h2{
+
+}
+/* SECCION 2 About me*/
+
+.about{
+    
+    background-color: var(--fondoabout);
+
+    height: 50vh;
+    color:var(--psections);
+    display: flex;
+    /* text-align: start; */
+    padding: 10px 20px;
+    /* justify-content: space-evenly; */
+}
