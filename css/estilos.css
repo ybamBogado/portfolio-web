@@ -50,12 +50,12 @@ header a{
     color: var(--textoheader);
     text-decoration: none;
     margin-right: 46px;
-    border: red 1px solid;
+    /* border: red 1px solid; */
     cursor: pointer;
 }
 .a_contacto{
     margin-right: 131px;
-    border: blue 4px solid;
+    /* border: blue 4px solid; */
 }
 header a:hover{
     color: var(--textoheaderhover);
@@ -79,10 +79,11 @@ nav{
     /* padding: 46px 177px; */
     
     /* justify-content: space-evenly; */
-    border: red 1px solid;
+    /* border: red 1px solid; */
+    padding-bottom: 100px;
 }
 .hero img{
-    border: red 1px solid;
+    /* border: red 1px solid; */
     /* margin: 50px 150px 90px 50px; */
     margin: 95px 177px 162px 0px ;
     
@@ -149,8 +150,37 @@ nav{
     color:var(--psections);
     display: flex;
     /* text-align: start; */
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
+    padding-bottom: 90px;
     /* justify-content: space-evenly; */
+}
+.about img{
+    margin: 83px 39px 0 177px;
+}
+
+.texto-about{
+    margin: 85px 177px 0 200px;
+    text-align: end;
+}
+.texto-about sup{
+    font-size: 35px;
+}
+.cv_descarga{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.fondo_contrateme{
+    background-color:var(--fondos_marrones);
+}
+
+.hero-inferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: center;
+    align-content: center;
+    inline-size: 1;
 }
 /* SECCION 3 */
 .trabajo {
