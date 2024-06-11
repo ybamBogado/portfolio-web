@@ -34,6 +34,8 @@
 }
 body{
     font-family: var(--fuente-pagina);
+    color: var(--psections);
+
 }
 header {
     display:flex;
@@ -43,9 +45,12 @@ header {
     color: var(--textoheader);
     padding: 46px 0px 46px 177px;
 }
-header i{
+.iconos_IB{
     margin-right: 345px;
+    align-content:flex-start;
+    font-size: 40px;
 }
+
 header a{
     color: var(--textoheader);
     text-decoration: none;
@@ -53,16 +58,19 @@ header a{
     /* border: red 1px solid; */
     cursor: pointer;
 }
-.a_contacto{
+a_contacto{
     margin-right: 131px;
     /* border: blue 4px solid; */
 }
-header a:hover{
+a:hover{
     color: var(--textoheaderhover);
     text-decoration:dotted var(--textoheaderhover) underline;
     cursor: pointer;
 }
-
+a{
+    color: var(--textoheader);
+    text-decoration: none;
+}
 nav{
     display:flex;
     justify-content:end;
@@ -96,9 +104,9 @@ nav{
     /* padding: 80px 0 0 10px; */
     margin: 159px 265px 162px 177px;
 }
-.herotext{
+/* .herotext{
     border: solid red;
-}
+} */
 .herotext sup{
     padding-top: 10px;
     font-size: 35px;
@@ -140,6 +148,9 @@ nav{
 .hero-inferior h2{
     margin: 40px;
 }
+.hero-inferior i{
+    /* tengo que encontrar la forma de que la flecha sea mas larga */
+}
 /* SECCION 2 About me*/
 
 .about{
@@ -174,35 +185,88 @@ nav{
     background-color:var(--fondos_marrones);
 }
 
-.hero-inferior{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: center;
-    align-content: center;
-    inline-size: 1;
-}
-/* SECCION 3 */
-.trabajo {
-    background-color: var(--fondoseccion3_trabajos);
-    margin: 0;
-    padding: 0;
-}
+
 
 /* .opiniones{} */
 
 /* SECCION 5 */
+.trabajo {
+    background-color: var(--fondoseccion3_trabajos);
+    color: var(--psections);
+    display: flex;
+    flex-wrap: nowrap;
+    height: 70vh;
+    /* padding: 156px 177px; */
+}
 
+.trabajo_texto{
+    text-align: left;
+    margin: 156px 100px 200px 177px;
+    padding-bottom: 690px;
+}
+.galeriaDeProyectos{
+    /* margin-right: 177px; */
+    /* margin: 100px; */
+    padding-right: 193px; 
+
+}
+.imagenes_1{
+    display: flex;
+    flex-direction: column;
+    max-width: 0.1%;
+
+}
+.imagenes_2{
+    display: flex;
+    flex-direction:column;
+    max-width: 0.1%;
+}
+/* seccion servicios */
 .servicios{
     background-color: var(--fondoseccion5_servicios);
     margin: 0;
     padding: 0;
 }
+/*contacto  */
 
+.contacto{
+    background: url(../img/trabajemos_juntos.jpeg) repeat-y center center/cover;
+    text-align: center;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    /* height: 200px; */
+    justify-content: center;
+    align-items: center;
+}
+.contacto sup{
+    margin-top: 10px;
+}
+.contacto h1{
+    padding: 0px 20px;
+}
+.contacto i{
+    color: var(--psections);
+
+}
 /* FOOTER */
 
 footer{
     background-color: var(--fondofooter);
-    margin: 0;
-    padding: 0;
+}
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 177px;
+    padding: 100px 0;
+    align-content: space-between;
+}
+
+.left_footer{
+    text-align: start;
+}
+.righ_footer{
+    text-align: end;
+    padding-left: 60px;
+    padding-right: 10px;
 }
