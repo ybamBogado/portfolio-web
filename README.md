@@ -1,17 +1,4 @@
-<style>
-    p {
-      color: red; /* Texto en rojo */
-      font-size: 20px; /* Tamaño de fuente de 20px */
-      text-align: center; /* Alineación centrada */
-    }
-    a{
-        color: blue;
-        text-decoration:none;
-    }
-    h3{
-        text-decoration: underline;
-    }
-  </style>
+
 <h1>Portfolio</h1>
 <hr>
 <h2>Descripción</h2>
