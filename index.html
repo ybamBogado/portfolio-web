@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
     <!-- font awesome -->
-     
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <!-- icono de pagina distinto -->
     <link rel="icon" type="image" href="img/icono_pagina.png">
@@ -24,7 +24,7 @@
             <a href="#inicio">Inicio</a>
             <a href="#sobre">Sobre</a>
             <a href="#portfolio">Portfolio</a>
-            <a href="">Reseñas</a>
+            <a href="#">Reseñas</a>
             <a href="#servicios">Servicios</a>
             <a class="a_contacto" href="#contacto">Contacto</a>
         </nav>
@@ -38,27 +38,30 @@
                     <sup>Sobre Ivan Bogado </sup>
                     <h1><b>Diseñador Web Full Stack</b></h1>
                     <p>Perfeccionándome como diseñador web, camino a ser analista programador. Recorre mi portafolio para ver mi capacidad de traer tus ideas a la realidad.</p>
-                    <div class="contratame">
+                    <a class="contratame" href="https://github.com/ybamBogado?tab=repositories">
                         <h3 class="fondo_contrateme">contrata</h3>
                         <h3 class="me">me </h3>
-                        <i class="bi bi-arrow-right"></i>
-                    </div>
-                    
+                        <i class=" bi bi-arrow-right"></i>
+                    </a> 
+
                 </div>
                 <!-- img/ivan-s2.jpeg -->
                 <div class="hero-inferior">
                     <div class="hero_contacto">
                         <h2>Contacto</h2>
-                    <a href="bogadoivan52@gmail.com">bogadoivan52@gmail.com</a>
+                        <a href="bogadoivan52@gmail.com">bogadoivan52@gmail.com</a>
                     </div>
                     <div class="hero_sigueme">
                         <h2>Sigueme</h2>
-                    <a href="">Linkedin</a>
-                    <a href="">Behance</a>
+                        <div class="vinculos">
+                            <a class="bordea" href="https://www.linkedin.com/in/ivan-bogado-40b03422b/">Linkedin</a>
+                            <a class="git_a" href="https://github.com/ybamBogado">Github</a>
+                        </div>
+                        
                     </div>
                     
                     <!-- flecha costado -->
-                    <i class="bi bi-arrow-down"></i>
+                    <i class="header_icon bi bi-arrow-down"></i>
                 </div>
             </div>
             <img src="img/ivan-hero.jpeg" alt="Foto ybam">
@@ -75,72 +78,102 @@
                 <sup>Sobre</sup>
                 <h1>Mi</h1>
                 <p>Hola! Soy Iván Bogado, programador web full stack. Tengo bastantes proyectos que puedes visitar. Sobresalgo por el conocimiento que tengo sobre distintos campos. Mis habilidades incluyen Python, C#, MySQL, HTML y CSS</p>
-                <div class="cv_descarga">
+                <a class="cv_descarga" href="https://drive.usercontent.google.com/u/1/uc?id=1I3J6AwZ10S4nL3eq5dRT7mXm0o-L0BMN&export=download">
                     <i class="bi bi-arrow-left"></i>
                     <h3 class="Descar">Descar</h3>
                     <h3 class="ga_cv">ga cv</h3>
-                </div>
+                </a>
                 
             </div>
         </section>
+<!-- SECCION #3 TRABAJO -->
+        
         <section class="trabajo" id="portfolio">
             <div class="trabajo_texto">
                 <sup>Mi</sup>
                 <h1>Trabajo</h1>
-                <a href="https://github.com/ybamBogado?tab=repositories">ver màs</a>  
+                <a class="contratame" href="https://github.com/ybamBogado?tab=repositories">
+                    <h3 class="fondo_contrateme">ver</h3>
+                    <h3 class="me">màs</h3>
+                    <i class="bi bi-arrow-right"></i>
+                </a> 
             </div>
             <div class="galery">
-                <div class="galery_1">
-                    <img src="img/inicio_de_sesion.jpg" alt="">
-                    <div class="links_a_proyectos">
-                        <a href="https://ybambogado.github.io/image-based-web-project/pages/tripy.html">Diseño de un inicio de sesion</a>
-                        <a class="contenedor_icon_link" href="https://ybambogado.github.io/image-based-web-project/pages/tripy.html"><i class="bi bi-arrow-right-circle"></i></a>
+                <div class="columna1">
+                    <div class="galery_1">
+                        <img src="img/inicio_de_sesion.jpg" alt="">
+                        <div class="links_a_proyectos">
+                            <a class="normal_A" href="https://ybambogado.github.io/image-based-web-project/pages/tripy.html">Diseño de un inicio de sesion</a>
+                            <a class="contenedor_icon_link" href="https://ybambogado.github.io/image-based-web-project/pages/tripy.html"><i class="bi bi-arrow-right-circle"></i></a>
+                        </div>
+                    </div>
+                    <div class="galery_1">
+                        <img src="img/proyecto_py.jpg" alt="">
+                        <div class="links_a_proyectos">
+                            <a class="normal_A" href="https://github.com/ybamBogado/hospital_menu">Aplicacion De consola Python</a>
+                            <a class="contenedor_icon_link" href="https://github.com/ybamBogado/hospital_menu"><i class="bi bi-arrow-right-circle"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="galery_1">
-                    <img src="img/proyecto_py.jpg" alt="">
-                    <div class="links_a_proyectos">
-                        <a href="#">Aplicacion De consola Python</a>
-                        <a class="contenedor_icon_link" href="https://ybambogado.github.io/image-based-web-project/pages/tripy.html"><i class="bi bi-arrow-right-circle"></i></a>
-                    </div>
-                </div>
+                
                 <div class="galery_1">
                     <img src="img/proyecto_sobre_mi.jpg" alt="">
                     <div class="links_a_proyectos">
-                        <a href="">Landing personal page</a>
-                        <a class="contenedor_icon_link" href="https://ybambogado.github.io/image-based-web-project/pages/tripy.html"><i class="bi bi-arrow-right-circle"></i></a>
+                        <a class="normal_A" href="https://ybambogado.github.io/tp_opcional_2/">Landing personal page</a>
+                        <a class="contenedor_icon_link" href="https://ybambogado.github.io/tp_opcional_2/"><i class="bi bi-arrow-right-circle"></i></a>
                     </div>
-            </div>
-                
-            </section> 
-            </div>
+                </div>
+            </div>    
         </section>
+
         <!-- Seccion Servicios -->
         <section class="servicios" id="servicios">
+            <div class="head_servicios">
+                <div class="column_service_head">
+                    <div class="headtextService">
+                        <sup>Mis</sup>
+                        <h1>Servicios</h1>
+                    </div>.
+                    <div class="headiconServices">
+                        <i class="bi bi-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
             
-            <sup>Mis</sup>
-            <h1>Servicios</h1>
-            <div  class="paginas_web">
-                <!-- podria hacer del aldo izquierdo servicio(h1-p-img-h1-p-justify left) -->
-
-                <!-- del otro img-h1-p-img justify right-->
-                <h2>Diseños de páginas web</h2>
-                <p>Puedo plasmar tu idea de página en la realidad con mis habilidades en css y html</p>
-                <a href="">ver màs</a>
-                <div class="imagen_s1">
-                    <img src="img/servicios_1.jpeg" alt="Imagen1">
+            
+            <div  class="servicios_1y2">
+                <div class="img_tex_serv">
+                    <div class="fleximgtext1">
+                        <div class="texto_1s">
+                            <h2>Diseños de páginas web</h2>
+                            <p>Puedo plasmar tu idea de página en la realidad con mis habilidades en css y html</p>
+                            <a class="contratame" href="https://github.com/ybamBogado?tab=repositories">
+                                <h3 class="fondo_contrateme">ver</h3>
+                                <h3 class="me">màs</h3>
+                                <i class="bi bi-arrow-right"></i>
+                            </a> 
+                        </div>
+                        <img src="img/servicios_1.jpeg" alt="Imagen1">
+                    </div>
                 </div>
-                
-            </div>
-            <div class="app_consola">
-                <div class="img_consola">
-                    <img src="img/servicios_2.jpeg" alt="Imagen1">
+                <div class="img_tex_serv">
+                    <div class="fleximgtext2">
+                        <img src="img/servicios_2.jpeg" alt="Imagen2">
+                        <div class="texto_2s">
+                            <h2>Creación de aplicaciones de consola</h2>
+                            <p>Puedo crearte la aplicaciones sencillas de consola para simplificar tu día a día y optimizar tareas rutinarias</p>
+                            <a class="cv_descarga" href="">
+                                <i class="bi bi-arrow-left"></i>
+                                <h3 class="Descar">ver</h3>
+                                <h3 class="ga_cv">más</h3>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <h2>Creación de aplicaciones de consola</h2>
-                <p>Puedo crearte la aplicaciones sencillas de consola para simplificar tu día a día y optimizar tareas rutinarias</p>
-                <a href="">ver màs</a>
             </div>
+        </section>
 
+        <!-- seccion contactos -->
         </section>
         <section class="contacto" id="contacto">
             <sup>Preparado para cambiar tu trabajo?</sup>
@@ -157,14 +190,14 @@
                 </div>
                 <p>Comprometido a sorprender superando espectativas. Me especializo en crear experiencia web para el usuario. Explora mi portfolio para sorprenderte con mi implementación de ideas a la realidad. Te invito a una nueva experiencia de usuario.</p>
             </div>
-        
+
             <div class="righ_footer">
                 <h1>Contacto</h1>
                 <p>Direccion: Argentina</p>
                 <p>Mail:bogadoivan52@gmail.com</p>
                 <div class="redes">
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-telegram"><a href="#"></a></i>
+                    <a href="https://www.instagram.com/ybamsas?igsh=MTNqYW81bnB0b2R6Mw=="><i class="bi bi-instagram"></i></a>
+                    <a href="http://t.me/ybamsas"><i class="bi bi-telegram"></i></a>
                 </div>
             </div>
         </div>
