@@ -5,6 +5,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 /* root variables */
 :root{
@@ -126,6 +127,7 @@ nav{
     flex-direction: row;
     padding-top: 10px;
     width: 50%;
+    cursor:pointer;
 }
 
 
@@ -196,7 +198,7 @@ nav{
     flex-direction: row;
     justify-content: end;
     padding-top: 10px;
-    
+    cursor: pointer;
 }
 
 .cv_descarga i{
